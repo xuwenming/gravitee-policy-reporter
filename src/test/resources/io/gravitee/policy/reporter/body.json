@@ -1,0 +1,12 @@
+{
+    "deviceSerializableId": "test-device-id2",
+    "performanceInfos": [{
+        "collectTime": 1654510068677,
+        "cpu": 20,
+        "memory": 50
+    },{
+        "collectTime": 1654510128677,
+        "cpu": 30,
+        "memory": 60
+    }]
+}

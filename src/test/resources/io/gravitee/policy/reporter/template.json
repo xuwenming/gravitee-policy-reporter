@@ -1,0 +1,24 @@
+{
+  "properties": [
+    {
+      "sourceName" : "deviceSerializableId",
+      "targetName": "mac",
+      "type": "label"
+    },{
+      "sourceName" : "performanceInfos",
+      "type" : "metrics",
+      "metrics" : [{
+        "sourceName" : "collectTime",
+        "type": "time"
+      },{
+        "sourceName": "cpu",
+        "targetName": "cpu",
+        "type": "metric"
+      },{
+        "sourceName": "memory",
+        "targetName": "memory",
+        "type": "metric"
+      }]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+[{
+  "labels": {
+    "deviceSerializableId": "test-device-id"
+  },
+  "metric": "cpu_test",
+  "time": 1654500022590,
+  "value": 20.0
+}, {
+  "labels": {
+    "deviceSerializableId": "test-device-id"
+  },
+  "metric": "memory_test",
+  "time": 1654500022590,
+  "value": 50.0
+},{
+  "labels": {
+    "deviceSerializableId": "test-device-id"
+  },
+  "metric": "cpu_test",
+  "time": 1654500032590,
+  "value": 30.0
+}, {
+  "labels": {
+    "deviceSerializableId": "test-device-id"
+  },
+  "metric": "memory_test",
+  "time": 1654500032590,
+  "value": 60.0
+}]

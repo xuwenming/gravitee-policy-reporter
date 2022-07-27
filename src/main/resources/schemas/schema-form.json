@@ -1,0 +1,36 @@
+{
+  "type" : "object",
+  "id" : "urn:jsonschema:com:lfsk:reporter:configuration:MetricsReporterPolicyConfiguration",
+  "properties" : {
+    "remoteWriteUrl" : {
+      "type" : "string",
+      "title": "Remote Write Url"
+    },
+    "metricTemplateJson" : {
+      "type" : "string",
+      "title": "Resolve Metric Template Json",
+      "x-schema-form": {
+        "type": "codemirror",
+        "codemirrorOptions": {
+          "lineWrapping": true,
+          "lineNumbers": true,
+          "allowDropFileTypes": true,
+          "autoCloseTags": true,
+          "mode": "text"
+        }
+      }
+    },
+    "interceptPaths" : {
+      "type" : "array",
+      "title": "intercept paths",
+      "items" : {
+        "type" : "string",
+        "title": "path"
+      }
+    }
+  },
+  "required": [
+    "remoteWriteUrl",
+    "metricTemplateJson"
+  ]
+}
